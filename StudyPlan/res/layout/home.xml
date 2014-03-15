@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infinitydream.studyplan.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/creat"
+        android:textStyle="bold" />
+
+    <ExpandableListView
+        android:id="@+id/expandableListView1"
+        android:layout_width="wrap_content"
+        android:layout_height="383dp" >
+    </ExpandableListView>
+
+</FrameLayout>
